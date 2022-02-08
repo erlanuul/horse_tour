@@ -1,0 +1,773 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.dja-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mainButton {
+	display: flex;
+	background: #0066ff;
+	border-radius: 5px;
+	width: 220px;
+	height: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: none !important;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.mainBox {
+	width: 100%;
+	background: #ffffff;
+	flex-direction: column;
+}
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header__navBar {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+.header-navBar__logoBox {
+	width: 37%;
+}
+.header-navBar__buttonsBox {
+	width: 63%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.header-navBar__buttons a {
+	font-family: Montserrat light;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+.header-navBar__buttons a {
+	margin: 30px;
+	text-decoration: none;
+	color: white;
+}
+.header-navBar__buttons.bordered {
+	border-right: 1px solid white;
+}
+
+/* body */
+.body {
+	width: 100%;
+	flex-direction: column;
+}
+
+/* ================== BODY ===================  */
+
+.body-mainBox__item {
+	width: 100%;
+	height: 648px;
+	z-index: 0;
+	background-image: url(../../src/tourDetailsImg.png);
+	background-size: cover;
+	background-position: center;
+}
+.body-mainBox__itemBackShadow {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #000000 -2.22%, rgba(0, 0, 0, 0) 100%);
+}
+.body-mainBox__infoBar {
+	margin-top: -30px;
+	display: flex;
+	flex-basis: 70%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.body-mainBox__infoBar div {
+	display: flex;
+	margin-bottom: 74px;
+	justify-content: center;
+	align-items: center;
+}
+.body-mainBox__infoBar img {
+	width: 5px;
+	height: 8px;
+	margin: 11px;
+}
+.body-mainBox__infoBar p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+.body-mainBox__infoBar a {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: #ffffff;
+}
+.body-mainBox__infoBar h1 {
+	font-family: Sedgwick Ave;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 125px;
+	color: #ffffff;
+	margin-bottom: 70px;
+}
+/* ============= BODY descriptionBox ============= */
+
+.body__descriptionBox {
+	width: 560px;
+	height: min-content;
+	background: #ffffff;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-top: -50px;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+.body-description__textBox {
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #efefef;
+	height: fit-content;
+}
+.body-description__textBox h1 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.body-description__textBox p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	width: 100%;
+}
+.body-description__tourInfoBox {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.body-description__tourInfoBox div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.tourInfoTitle {
+	width: 34%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #0066ff;
+	margin-right: 20px;
+}
+.tourInfoText {
+	width: 55%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+/* ================ tourSliderBox ================ */
+.body__sliderBox {
+	width: 560px;
+	height: min-content;
+	background: #ffffff;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	margin-bottom: 20px;
+	margin-top: -45px;
+}
+.sliderBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 32px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+/* ================ Slider ================ */
+.body__mainSlider {
+	width: 100%;
+	min-width: 0;
+	height: 370px;
+	position: relative;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.body__mainSlider .slick-arrow {
+	position: absolute;
+	z-index: 1;
+	font-size: 0;
+	width: 16px;
+	height: 28px;
+	border: none;
+	background: linear-gradient(180deg, #000000 -2.22%, rgba(0, 0, 0, 0) 100%);
+}
+.body__mainSlider .slick-arrow.slick-prev {
+	left: 0;
+	background: url(../../src/mainSlideVectorL.png) 0 0 /100% no-repeat;
+	margin-left: 30px;
+}
+.body__mainSlider .slick-arrow.slick-next {
+	right: 0;
+	background: url(../../src/mainSlideVectorR.png) 0 0 /100% no-repeat;
+	margin-right: 30px;
+}
+.body__mainSlider .slick-dots {
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+}
+.body__mainSlider .slick-dots li {
+	list-style: none;
+	margin: 0px 5px;
+}
+.body__mainSlider .slick-dots .slick-active button {
+	background: #0066ff;
+	border: 2px solid white;
+	width: 10px;
+	height: 10px;
+}
+.body__mainSlider .slick-dots button {
+	font-size: 0px;
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+/* Ограничивающая оболочка */
+.body__mainSlider .slick-list {
+	overflow: hidden;
+	width: 100%;
+	border-radius: 20px;
+	height: 370px;
+	/* margin-top: -30px; */
+}
+.body__mainSlider .slick-track {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+/* конец главного слайдера */
+.body-mainSlider__item {
+	width: 100%;
+	height: 370px;
+	z-index: 0;
+	background-image: url(../../src/tour_photos/slide_img_1.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+.body-mainSlider__itemBackShadow {
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #000000 -60%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* ================ body__ltineraryBox ================= */
+
+.body__ltineraryBox {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	width: 560px;
+	height: min-content;
+	padding: 30px;
+	background: #ffffff;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.ltineraryBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.ltineraryBox__infoBox {
+	width: 100%;
+	height: min-content;
+	border-left: 1px dashed #cecece;
+}
+.infoBox__item {
+	width: 100%;
+	height: min-content;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+.infoBox-item__icon {
+	background-color: white;
+	margin-left: -11px;
+}
+.infoBox-item__mainText {
+	width: 100%;
+	display: flex;
+	position: relative;
+	margin-bottom: 20px;
+}
+.infoBox-item__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #0066ff;
+	margin-right: 5px;
+	width: fit-content;
+	height: 20px;
+}
+.infoBox-item__text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	width: 80%;
+}
+.infoBox__itemBox {
+	width: 100%;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.infobox-item__setInviseVector {
+	background-image: url(../../src/setInvisibilityVectorOff.png);
+	width: 19px;
+	height: 11px;
+	background-size: cover;
+	position: absolute;
+	right: 0%;
+	align-self: center;
+}
+.infobox-item__invisibleBox {
+	display: none;
+	flex-direction: column;
+	height: min-content;
+}
+.invisibleBox__img {
+	background-image: url(../../src/ltineraryImg.png);
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+.invisibleBox__text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #000000;
+}
+
+/* ============ body__grouptourBox =========== */
+.body__gridContainer {
+	width: 940px;
+	background-color: transparent;
+	z-index: 3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: max-content;
+	justify-content: center;
+}
+.body__grouptourBox {
+	grid-column-start: 2;
+	grid-row-start: 1;
+	width: 240px;
+	height: min-content;
+	margin-left: 20px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.grouptourBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.grouptourBox__tourDateBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.tourDateBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.tourDateBox__date {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.tourDateBox__spot {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	color: #a4a4a4;
+}
+.contentBox__aboutTour {
+	width: 100%;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #efefef;
+	margin-bottom: 18px;
+}
+.contentBox__item {
+	width: 50%;
+	flex-direction: column;
+	text-align: center;
+}
+.contentBox__item h3 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+
+	color: #000000;
+}
+.contentBox__item h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.contentBox__item a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.grouptourBox__dbRoomBox {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin-bottom: 19px;
+}
+.grouptourPriceBox {
+	display: flex;
+	align-items: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: #1f9c00;
+	margin-right: 13px;
+}
+.grouptourPriceBox p {
+	font-size: 10px;
+	display: flex;
+	align-items: flex-end;
+	height: 29px !important;
+}
+.grouptourBox-dbRoomBox__title {
+	width: max-content;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px !important;
+	color: #000000;
+}
+.grouptourBox-dbRoomBox__subTitle {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+
+	color: #a4a4a4;
+}
+/*================== FOOTER ===================*/
+.body-findTourBox__formBox {
+	width: 650px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.findTourBox__formItem {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0);
+	font-weight: bold;
+	width: 300px;
+	margin: 10px 10px 20px 10px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.findTourBox__formItem::placeholder {
+	color: white;
+}
+.footer {
+	width: 100%;
+	flex-direction: column;
+}
+.footer__getInTouchBoxImg {
+	width: 100%;
+	height: 466px;
+	background-image: url(../../src/original1.png);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+}
+.footer__getInTouchBox {
+	width: 100%;
+	height: 466px;
+	background: rgba(0, 0, 0, 0.5);
+	flex-direction: column;
+}
+.footer-getInTouchBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+	font-weight: 900;
+	color: #ffffff;
+}
+.findTourBox__formItem.Description {
+	width: 620px;
+	height: 120px;
+	align-items: flex-start;
+	padding-top: 10px;
+}
+.footer-getInTouchBox__contacts div {
+	margin: 20px 30px;
+	text-align: center;
+}
+.footer-getInTouchBox__contacts div a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-getInTouchBox__contacts div p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+/*  =========  footer contactbox  ===== */
+.footer__contactBox {
+	width: 100%;
+	height: 350px;
+	display: flex;
+}
+.footer-contactBox__socialMediaBox {
+	width: 47%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	background: #f2f2f1;
+}
+.contactBox-socialMediaBox__logoBox {
+	margin-left: 213px;
+	margin-bottom: 20px;
+}
+.footer-contactBox__socialMediaBox p {
+	width: 378px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+	margin-left: 213px;
+	margin-bottom: 20px;
+}
+.contactBox-socialMediaBox__socialMedia {
+	margin-left: 203px;
+	margin-bottom: 20px;
+}
+.contactBox-socialMediaBox__socialMedia a {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #0066ff;
+	width: 30px;
+	height: 30px;
+	border-radius: 7px;
+}
+.contactBox-socialMediaBox__socialMedia a img {
+	background-size: cover;
+}
+.footer-contactBox__contacts {
+	width: 53%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin-left: 20px;
+}
+.footer-contactBox__contacts p {
+	margin-bottom: 29px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+}
+.footer-contactBox__contacts a {
+	margin-bottom: 20px;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+	border-radius: 7px;
+}
+.footer-contactBox__contacts a img {
+	margin-right: 20px;
+}
+.footer-contactBox__contacts a p img {
+	width: 30px;
+	height: 30px;
+	background: #0066ff;
+	background-size: cover;
+}
+.footer__subBar {
+	background: #7ab0ff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+
+	color: #ffffff;
+}
+/* Фонты */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../src/font-family/montserrat/static/Montserrat-Medium.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat light';
+	src: url('../../src/font-family/montserrat/static/Montserrat-Light.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Sedgwick Ave';
+	src: url('../../src/font-family/Sedgwick_Ave/SedgwickAve-Regular.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}

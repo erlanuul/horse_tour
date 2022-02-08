@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.dja-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mainButton {
+	display: flex;
+	background: #0066ff;
+	border-radius: 10px;
+	width: 220px;
+	height: 40px;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: none !important;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	max-height: max-content;
+}
+.mainBox {
+	width: 100%;
+	background: #ffffff;
+	flex-direction: column;
+}
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header__navBar {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+.header-navBar__logoBox {
+	width: 37%;
+}
+.header-navBar__buttonsBox {
+	width: 63%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.header-navBar__buttons a {
+	font-family: Montserrat light;
+	font-size: 16px;
+	line-height: 20px;
+}
+.header-navBar__buttons a {
+	margin: 30px;
+	text-decoration: none;
+	color: white;
+}
+.header-navBar__buttons.bordered {
+	border-right: 1px solid white;
+}
+.linked {
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	padding-bottom: 6px;
+}
+
+/* body */
+.body {
+	width: 100%;
+	flex-direction: column;
+}
+
+/* ================== BODY ===================  */
+
+.body-mainBox__item {
+	width: 100%;
+	height: 743px;
+	z-index: 0;
+	background-image: url(../../src/toursImg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.body-mainBox__itemBackShadow {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #000000 -10%, rgba(0, 0, 0, 0) 80%);
+}
+.body-mainBox__infoBar {
+	display: flex;
+	width: 35%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-bottom: 130px;
+}
+.infoBar__links {
+	display: flex;
+	margin-bottom: 74px;
+	justify-content: center;
+	align-items: center;
+}
+.infoBar__linkImg {
+	width: 5px;
+	height: 8px;
+	margin: 11px;
+}
+.infoBar__links p {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 16px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+.infoBar__links a {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 16px;
+
+	color: #ffffff;
+}
+.infoBar__title {
+	font-family: Sedgwick Ave;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 75px;
+	color: #ffffff;
+	margin-bottom: 11px;
+}
+.infoBar__text {
+	margin-bottom: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+}
+.infoBar__contacts {
+	width: 100%;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.infoBar__contacts a {
+	margin-bottom: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+.infoBar__contacts img {
+	margin-right: 20px;
+}
+
+.socialMediaContainer {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.contactBox-socialMediaBox__socialMedia {
+	margin-bottom: 20px;
+}
+.contactBox-socialMediaBox__socialMedia a {
+	margin: 10px;
+}
+
+/* =========================================== */
+
+.body-findTourBox__formBox {
+	width: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.findTourBox__formItem {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0);
+	font-weight: bold;
+	width: 220px;
+	margin: 0px 10px 20px 10px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.findTourBox__formItem::placeholder {
+	color: white;
+}
+.footer__getInTouchBox {
+	width: 100%;
+	flex-direction: column;
+}
+.footer-getInTouchBox__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+	font-weight: 900;
+	color: #ffffff;
+}
+.findTourBox__formItem.Description {
+	width: 460px;
+	height: 120px;
+	align-items: flex-start;
+	padding-top: 10px;
+}
+.footer__getInTouchBox {
+	margin-bottom: 20px;
+}
+/*================== FOOTER ===================*/
+.footer {
+	width: 100%;
+}
+.footer__subBar {
+	background: #7ab0ff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+
+	color: #ffffff;
+}
+/* Фонты */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../src/font-family/montserrat/static/Montserrat-Medium.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat light';
+	src: url('../../src/font-family/montserrat/static/Montserrat-Light.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Sedgwick Ave';
+	src: url('../../src/font-family/Sedgwick_Ave/SedgwickAve-Regular.ttf')
+		format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
