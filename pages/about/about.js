@@ -1,5 +1,5 @@
-let header__navbar = document.getElementById('header__navBar')
 window.addEventListener('scroll', function () {
+	let header__navbar = document.getElementById('header__navBar')
 	let event = window.scrollY
 	if (event >= 0 && event < 50) {
 		header__navbar.style.backgroundColor = 'transparent'
@@ -8,6 +8,7 @@ window.addEventListener('scroll', function () {
 	}
 })
 window.onload = () => {
+	let header__navbar = document.getElementById('header__navBar')
 	let event = window.scrollY
 	if (event >= 0 && event < 50) {
 		header__navbar.style.backgroundColor = 'transparent'

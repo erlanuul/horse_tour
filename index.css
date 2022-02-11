@@ -11,24 +11,27 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	/* background-color: grey; */
 }
 .mainBox {
+	height: 100%;
 	width: 100%;
 	background: #ffffff;
 	flex-direction: column;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 .header {
-	width: 100%;
 	display: flex;
-	flex-direction: column;
-}
-.header__navBar {
 	height: 80px;
 	width: 100%;
 	position: fixed;
 	z-index: 99999;
 	border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+.header__navBar {
+	height: 100%;
+	width: 1366px;
 }
 .header-navBar__logoBox {
 	width: 37%;
@@ -86,10 +89,10 @@ body {
 }
 /* Ограничивающая оболочка */
 .body__mainSlider .slick-list {
+	width: 100%;
 	overflow: hidden;
 }
 .body__mainSlider .slick-track {
-	width: 100%;
 	display: flex;
 	align-items: flex-start;
 }
@@ -97,7 +100,7 @@ body {
 .body-mainSlider__item {
 	width: 100%;
 	height: 768px;
-	z-index: 2;
+	z-index: 0;
 	background-image: url(./src/tour_photos/slide_img_1.jpg);
 	background-size: cover;
 	background-position: center;
@@ -509,6 +512,8 @@ body {
 .body-tienShanMapBox__imgBox {
 	height: 600px;
 	width: 100%;
+	background-image: url('./src/map.png');
+	background-size: cover;
 }
 .tienShanMapBox-headBar__text {
 	font-family: Sedgwick Ave;
@@ -588,14 +593,17 @@ body {
 	width: 47%;
 	height: 350px;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: flex-end;
+	align-items: center;
 	background: #f2f2f1;
 }
+.footer-contactBox__container {
+	width: 400px;
+	margin-right: 82px;
+}
 .contactBox-socialMediaBox__logoBox {
-	margin-left: 213px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 }
 .footer-contactBox__socialMediaBox p {
 	width: 378px;
@@ -606,11 +614,12 @@ body {
 	line-height: 20px;
 	font-weight: bold;
 	color: #000000;
-	margin-left: 213px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 }
 .contactBox-socialMediaBox__socialMedia {
-	margin-left: 203px;
+	display: flex;
+	justify-content: flex-start;
 	margin-bottom: 20px;
 }
 .contactBox-socialMediaBox__socialMedia a {
@@ -673,7 +682,6 @@ body {
 	text-align: center;
 	height: 50px;
 	width: 100%;
-
 	color: #ffffff;
 }
 /* Фонты */
@@ -698,12 +706,3 @@ body {
 	font-style: normal;
 	font-weight: normal;
 }
-
-/* .slick-list {
-	overflow: hidden;
-}
-.body__mainSlider .slick-track {
-	width: 100%;
-	display: flex;
-	align-items: flex-start;
-} */

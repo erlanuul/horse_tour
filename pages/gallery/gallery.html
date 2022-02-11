@@ -4,12 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./gallery.css" />
-		<title>Детали тура</title>
+		<title>Галерея</title>
 	</head>
 	<body class="dja-center">
-		<div class="mainBox dja-center">
-			<div class="header">
-				<div class="header__navBar dja-center" id="header__navBar">
+		<div class="mainBox" id="galleryPage">
+			<div class="header dja-center" id="header__navBar">
+				<div class="header__navBar dja-center">
 					<div class="header-navBar__logoBox dja-center">
 						<a href="../../index.html"
 							><img src="../../src/logo.png" alt="logo"
@@ -83,7 +83,11 @@
 									from 45 BC, making it over 2000 years old. Richard McClintock,
 									a Latin professor at Hampden-Sydney College in
 								</p>
-								<div class="gallery__slider">
+								<div
+									class="gallery__slider"
+									data-title="Chui area"
+									data-images="'../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg'"
+								>
 									<div class="slider__item"></div>
 									<div class="slider__item"></div>
 									<div class="slider__item"></div>
@@ -104,7 +108,11 @@
 									from 45 BC, making it over 2000 years old. Richard McClintock,
 									a Latin professor at Hampden-Sydney College in
 								</p>
-								<div class="gallery__slider">
+								<div
+									class="gallery__slider"
+									data-title="Chui area"
+									data-images="'../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg','../../src/tour_photos/slide_img_1.jpg'"
+								>
 									<div class="slider__item"></div>
 									<div class="slider__item"></div>
 									<div class="slider__item"></div>
@@ -162,20 +170,22 @@
 
 				<div class="footer__contactBox">
 					<div class="footer-contactBox__socialMediaBox">
-						<div class="contactBox-socialMediaBox__logoBox">
-							<a href="../../index.html"
-								><img src="../../src/contactBoxLogo.png" alt="logo"
-							/></a>
-						</div>
-						<p>
-							Travel Land Kyrgyzstan is a tour operator in Central Asia. Join us
-							on our tours and let's make lifelong memories together!
-						</p>
-						<div class="contactBox-socialMediaBox__socialMedia dja-center">
-							<a href="#"><img src="../../src/facebook.png" alt="" /></a>
-							<a href="#"><img src="../../src/twitter.png" alt="" /></a>
-							<a href="#"><img src="../../src/in.png" alt="" /></a>
-							<a href="#"><img src="../../src/skype.png" alt="" /></a>
+						<div class="footer-contactBox__container">
+							<div class="contactBox-socialMediaBox__logoBox">
+								<a href="./index.html"
+									><img src="../../src/contactBoxLogo.png" alt="logo"
+								/></a>
+							</div>
+							<p>
+								Travel Land Kyrgyzstan is a tour operator in Central Asia. Join
+								us on our tours and let's make lifelong memories together!
+							</p>
+							<div class="contactBox-socialMediaBox__socialMedia dja-center">
+								<a href="#"><img src="../../src/facebook.png" alt="" /></a>
+								<a href="#"><img src="../../src/twitter.png" alt="" /></a>
+								<a href="#"><img src="../../src/in.png" alt="" /></a>
+								<a href="#"><img src="../../src/skype.png" alt="" /></a>
+							</div>
 						</div>
 					</div>
 					<div class="footer-contactBox__contacts">
@@ -201,9 +211,10 @@
 				<div class="footer__subBar dja-center">Tian Shan Tours 2022</div>
 			</div>
 		</div>
-		<div class="modalSliderBox">
+		<div class="modalSliderBox" id="modalSliderBox">
 			<div class="modalSliderBox__invisibleSlider"></div>
 		</div>
+
 		<script src="../../jquerybibl.js"></script>
 		<script src="../../slick.min.js"></script>
 		<script src="./gallery.js"></script>
