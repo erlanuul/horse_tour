@@ -1,3 +1,12 @@
+@media (max-width: 1200px) {
+	.footer-contactBox__container {
+		margin-right: 0px;
+		width: 350px;
+	}
+	.footer-contactBox__socialMediaBox p {
+		width: 300px;
+	}
+}
 @media (max-width: 990px) {
 	.header {
 		height: 60px;
@@ -276,6 +285,7 @@
 	}
 	.footer-contactBox__container {
 		margin-right: 0px;
+		width: 80%;
 	}
 	.contactBox-socialMediaBox__logoBox {
 		margin-bottom: 20px;
@@ -285,7 +295,7 @@
 		width: 100px;
 	}
 	.footer-contactBox__socialMediaBox p {
-		width: 60%;
+		width: 80%;
 		font-size: 12px;
 		line-height: 15px;
 	}
@@ -324,7 +334,7 @@
 
 /* ================================ */
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
 	.header {
 		height: 40px;
 	}

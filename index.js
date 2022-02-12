@@ -63,7 +63,7 @@ $(document).ready(function () {
 		variableWidth: false,
 		responsive: [
 			{
-				breakpoint: 640,
+				breakpoint: 700,
 				settings: {
 					slidesToShow: 2,
 				},
@@ -95,7 +95,7 @@ $(document).ready(function () {
 		variableWidth: false,
 		responsive: [
 			{
-				breakpoint: 640,
+				breakpoint: 700,
 				settings: {
 					slidesToShow: 2,
 				},
