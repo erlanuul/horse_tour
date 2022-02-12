@@ -1,0 +1,508 @@
+@media (max-width: 990px) {
+	.header {
+		height: 60px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+	.header__navBar {
+		width: 990px;
+	}
+	.header-navBar__logoBox {
+		width: 30%;
+	}
+	.header-navBar__logoBox img {
+		width: 100px;
+	}
+	.header-navBar__buttonsBox {
+		width: 70%;
+	}
+	.header-navBar__buttons a {
+		font-size: 12px;
+		line-height: 10px;
+		margin: 20px;
+	}
+	.header-navBar__buttons.bordered {
+		border-right: 1px solid white;
+	}
+
+	/*===================== главный слайдер =================*/
+
+	.body__mainSlider .slick-arrow {
+		width: 10px;
+		height: 22px;
+	}
+	/* конец главного слайдера */
+	.body-mainSlider__item {
+		height: 500px;
+	}
+	.body-mainSlider__infoBar {
+		flex-basis: 70%;
+		height: 100%;
+	}
+	.body-mainSlider__infoBar p {
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 15px;
+	}
+	.body-mainSlider__infoBar h1 {
+		font-size: 50px;
+		line-height: 80px;
+		margin-bottom: 40px;
+	}
+
+	.mainButton {
+		width: 150px;
+		height: 30px;
+		font-size: 12px;
+	}
+
+	/* =====================  choose tour ==================== */
+
+	.chooseTourBox__headBar {
+		margin-bottom: 5px;
+	}
+	.chooseTourBox-headBar__text {
+		font-size: 20px;
+		line-height: 25px;
+		margin-left: 10px;
+	}
+	.chooseTourBox-headBar__mainLink {
+		font-size: 14px;
+		margin-right: 70px;
+	}
+	.chooseTourBox-item__imgBox {
+		width: 100%;
+		height: 150px;
+		border-radius: 10px 10px 0px 0px;
+	}
+
+	.chooseTourBox-item__imgBoxShadow {
+		background: linear-gradient(180deg, #000000 -15.22%, rgba(0, 0, 0, 0) 100%);
+		border-radius: 10px 10px 0px 0px;
+		width: 100%;
+		height: 100%;
+	}
+	.chooseTourBox-item__imgBoxLocationTextBox {
+		margin-top: 5px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.chooseTourBox-item__imgBoxLocationTextBox img {
+		width: 7px;
+		height: 10px;
+		margin: 0px 5px 0px 8px;
+	}
+	.chooseTourBox-item__imgBoxLocationTextBox p {
+		width: 70%;
+	}
+	.tourPriceBox {
+		font-size: 15px;
+		align-items: center;
+		width: 80px;
+		height: 30px;
+	}
+	.tourPriceBox p {
+		font-size: 10px;
+		margin-left: 3px;
+		margin-top: 5px;
+	}
+	.chooseTourBox-item__contentBox {
+		height: 260px;
+	}
+	.chooseTourBox-item__contentBox h1 {
+		font-size: 14px;
+		margin-bottom: 12px;
+		margin-top: 15px;
+	}
+	.chooseTourBox-item__contentBox p {
+		margin-bottom: 15px;
+		font-size: 12px;
+		width: 85%;
+	}
+	.contentBox__item {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.contentBox__item h3 {
+		font-size: 8px;
+		margin-bottom: 5px;
+	}
+	.contentBox__item h2 {
+		font-size: 12px;
+	}
+	.chooseTourBox-item__contentBox a {
+		font-size: 10px;
+		width: 130px;
+	}
+	/* ===================== choose tour SLIDER ======================== */
+	.body-chooseTourBoxSlide .slick-list {
+		overflow: hidden;
+		border-radius: 20px;
+	}
+	.body-chooseTourBoxSlide .slick-track {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.body__chooseTourBox {
+		width: 600px;
+		height: 520px;
+	}
+	.body-chooseTourBoxSlide {
+		width: 100%;
+	}
+	.body-chooseTourBox__item {
+		width: 220px !important;
+		margin: 10px 10px 10px 10px;
+		height: 412px;
+		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+	}
+	.body-chooseTourBoxSlide .slick-arrow {
+		width: 7px;
+		height: 11px;
+		top: -27px;
+	}
+	.body-chooseTourBoxSlide .slick-arrow.slick-prev {
+		margin-right: 38px;
+	}
+	.body-chooseTourBoxSlide .slick-arrow.slick-next {
+		margin-right: 10px;
+	}
+
+	/* ================ find tour ================ */
+
+	.body__findTourBoxImg {
+		height: 300px;
+	}
+
+	.body__findTourBox h1 {
+		font-size: 30px;
+	}
+	.body__findTourBox p {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+	.body-findTourBox__formBox {
+		width: 440px;
+	}
+	.findTourBox__formItem {
+		font-size: 12px;
+		width: 200px;
+		height: 30px;
+	}
+
+	/* =============== красивые места ================ */
+	.body__beautifulPlacesBox {
+		width: 600px;
+		margin-bottom: 20px;
+	}
+	.beautifulPlacesBox__text {
+		font-size: 20px;
+		margin-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+	.body-beautifulPlacesBox__item {
+		width: 180px;
+		height: 160px;
+		margin-bottom: 20px;
+	}
+	.body-beautifulPlacesBox__item img {
+		width: 180px;
+		height: 160px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow {
+		width: 7px;
+		height: 11px;
+		top: -30px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow.slick-prev {
+		margin-right: 38px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow.slick-next {
+		margin-right: 10px;
+	}
+	/* ================ tienSHan ==================== */
+
+	.body__tienShanMapBox {
+		width: 580px;
+		height: 450px;
+	}
+	.body-tienShanMapBox__headBar {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.body-tienShanMapBox__imgBox {
+		height: 350px;
+	}
+	.tienShanMapBox-headBar__text {
+		font-size: 20px;
+	}
+
+	/*================== FOOTER ===================*/
+
+	.footer__getInTouchBoxImg {
+		width: 100%;
+		height: 350px;
+	}
+	.footer__getInTouchBox {
+		width: 100%;
+	}
+	.footer-getInTouchBox__title {
+		font-size: 30px;
+	}
+	.findTourBox__formItem.Description {
+		width: 420px;
+		height: 80px;
+	}
+	.footer-getInTouchBox__contacts div {
+		margin: 20px 30px;
+	}
+	.footer-getInTouchBox__contacts div a {
+		font-size: 12px;
+		line-height: 10px;
+	}
+	.footer-getInTouchBox__contacts div p {
+		font-size: 8px;
+	}
+	/*  =========  footer contactbox  ===== */
+	.footer__contactBox {
+		width: 100%;
+		height: 250px;
+	}
+	.footer-contactBox__socialMediaBox {
+		width: 47%;
+		height: 250px;
+	}
+	.footer-contactBox__container {
+		margin-right: 0px;
+	}
+	.contactBox-socialMediaBox__logoBox {
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.contactBox-socialMediaBox__logoBox img {
+		width: 100px;
+	}
+	.footer-contactBox__socialMediaBox p {
+		width: 60%;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.contactBox-socialMediaBox__socialMedia {
+		margin-bottom: 20px;
+	}
+	.contactBox-socialMediaBox__socialMedia a {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 20px;
+		height: 20px;
+		border-radius: 7px;
+	}
+	.contactBox-socialMediaBox__socialMedia a img {
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+	}
+	.footer-contactBox__contacts p {
+		margin-bottom: 20px;
+		font-size: 15px;
+	}
+	.footer-contactBox__contacts a {
+		margin-bottom: 29px;
+		font-size: 12px;
+	}
+	.footer-contactBox__contacts img {
+		width: 20px;
+		height: 20px;
+	}
+	.footer__subBar {
+		font-size: 12px;
+		height: 40px;
+	}
+}
+
+/* ================================ */
+
+@media (max-width: 640px) {
+	.header {
+		height: 40px;
+	}
+	.header__navBar {
+		width: 640px;
+	}
+	.header-navBar__logoBox img {
+		width: 80px;
+		height: fit-content;
+	}
+	.header-navBar__buttonsBox {
+		width: 70%;
+		justify-content: center;
+	}
+	.header-navBar__buttons a {
+		font-size: 10px;
+		line-height: 10px;
+		margin: 20px;
+	}
+
+	/*===================== главный слайдер =================*/
+
+	.body__mainSlider .slick-arrow {
+		width: 10px;
+		height: 22px;
+	}
+	/* конец главного слайдера */
+	.body-mainSlider__item {
+		height: 400px;
+	}
+	.body-mainSlider__infoBar {
+		flex-basis: 60%;
+	}
+	.body-mainSlider__infoBar p {
+		font-size: 10px;
+	}
+	.body-mainSlider__infoBar h1 {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+
+	.mainButton {
+		width: 100px;
+		height: 30px;
+		font-size: 10px;
+	}
+
+	/* =====================  choose tour ==================== */
+
+	.chooseTourBox__headBar {
+		margin-bottom: 0px;
+	}
+
+	/* ===================== choose tour SLIDER ======================== */
+
+	.body__chooseTourBox {
+		width: 450px;
+		height: 520px;
+	}
+	.body-chooseTourBoxSlide .slick-arrow {
+		top: -20px;
+	}
+
+	/* ================ find tour ================ */
+
+	.body__findTourBoxImg {
+		height: 250px;
+	}
+
+	.body__findTourBox h1 {
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+	.body__findTourBox p {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.body-findTourBox__formBox {
+		width: 400px;
+	}
+	.findTourBox__formItem {
+		font-size: 12px;
+		width: 180px;
+		height: 30px;
+	}
+
+	/* =============== красивые места ================ */
+	.body__beautifulPlacesBox {
+		width: 450px;
+		margin-bottom: 20px;
+	}
+	.beautifulPlacesBox__text {
+		font-size: 20px;
+		margin-bottom: 5px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+	.body-beautifulPlacesBox__item {
+		width: 180px;
+		height: 160px;
+		margin-bottom: 20px;
+	}
+	.body-beautifulPlacesBox__item img {
+		width: 180px;
+		height: 160px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow {
+		width: 7px;
+		height: 11px;
+		top: -30px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow.slick-prev {
+		margin-right: 38px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow.slick-next {
+		margin-right: 10px;
+	}
+	/* ================ tienSHan ==================== */
+
+	.body__tienShanMapBox {
+		width: 450px;
+		height: 450px;
+	}
+
+	/*  =========  footer contactbox  ===== */
+	.footer__contactBox {
+		width: 100%;
+		height: 250px;
+	}
+	.footer-contactBox__socialMediaBox {
+		width: 47%;
+		height: 250px;
+	}
+	.footer-contactBox__container {
+		margin-right: 0px;
+	}
+	.contactBox-socialMediaBox__logoBox {
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.contactBox-socialMediaBox__logoBox img {
+		width: 100px;
+	}
+	.footer-contactBox__socialMediaBox p {
+		width: 60%;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.contactBox-socialMediaBox__socialMedia {
+		margin-bottom: 20px;
+	}
+	.contactBox-socialMediaBox__socialMedia a {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 20px;
+		height: 20px;
+		border-radius: 7px;
+	}
+	.contactBox-socialMediaBox__socialMedia a img {
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+	}
+	.footer-contactBox__contacts p {
+		margin-bottom: 20px;
+		font-size: 15px;
+	}
+	.footer-contactBox__contacts a {
+		margin-bottom: 29px;
+		font-size: 12px;
+	}
+	.footer-contactBox__contacts img {
+		width: 20px;
+		height: 20px;
+	}
+	.footer__subBar {
+		font-size: 12px;
+		height: 40px;
+	}
+}

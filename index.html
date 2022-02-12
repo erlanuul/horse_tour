@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="./adaptive.css" />
 		<title>Horse tour</title>
 	</head>
 	<body class="dja-center">
@@ -238,9 +239,8 @@
 								type="text"
 								placeholder="Surname"
 							/>
-
-							<a href="#" class="mainButton">SEND</a>
 						</div>
+						<a href="#" class="mainButton">SEND</a>
 					</div>
 				</div>
 
@@ -297,16 +297,19 @@
 					<div class="footer__getInTouchBox dja-center">
 						<h1 class="footer-getInTouchBox__title">Get in touch</h1>
 						<div class="body-findTourBox__formBox">
-							<input
-								class="findTourBox__formItem"
-								type="text"
-								placeholder="Name"
-							/>
-							<input
-								class="findTourBox__formItem"
-								type="text"
-								placeholder="Surname"
-							/>
+							<div class="footer__getInTouchContainer">
+								<input
+									class="findTourBox__formItem"
+									type="text"
+									placeholder="Name"
+								/>
+								<input
+									class="findTourBox__formItem"
+									type="text"
+									placeholder="Surname"
+								/>
+							</div>
+
 							<textarea
 								name="description"
 								id="description"
@@ -316,7 +319,7 @@
 								placeholder="Description"
 							></textarea>
 						</div>
-						<a href="#" class="mainButton">SENT</a>
+						<a href="#" class="mainButton">SEND</a>
 						<div class="footer-getInTouchBox__contacts dja-center">
 							<div class="getInTouchBox-contacts__phoneNum">
 								<p>PHONE NUMBER</p>

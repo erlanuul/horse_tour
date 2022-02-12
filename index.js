@@ -61,6 +61,14 @@ $(document).ready(function () {
 		waitForAnimate: false,
 		centerMode: false,
 		variableWidth: false,
+		responsive: [
+			{
+				breakpoint: 640,
+				settings: {
+					slidesToShow: 2,
+				},
+			},
+		],
 	})
 })
 $(document).ready(function () {
@@ -85,5 +93,13 @@ $(document).ready(function () {
 		waitForAnimate: false,
 		centerMode: false,
 		variableWidth: false,
+		responsive: [
+			{
+				breakpoint: 640,
+				settings: {
+					slidesToShow: 2,
+				},
+			},
+		],
 	})
 })
