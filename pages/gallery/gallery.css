@@ -1,4 +1,5 @@
 @import url('../../index.css');
+@import url(./adaptive.css);
 
 .linked {
 	font-weight: bold;
@@ -70,17 +71,18 @@
 	width: 940px;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	flex-direction: column;
 }
 .galleryBox__itemBox {
 	background-image: url(../../src/galleryItemBackImg1.png);
 	margin-bottom: 50px;
 	background-size: cover;
-	width: 940px;
+	width: 100%;
 	height: 500px;
 }
 .galleryBox__itemShadowBox {
-	width: 940px;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 	background: #000000a4;
 	display: flex;
 	flex-direction: column;
@@ -128,8 +130,8 @@
 	align-items: center;
 }
 .slider__item {
-	width: 140px !important;
-	height: 140px !important;
+	width: 140px;
+	height: 140px;
 	border-radius: 20px;
 	border: 1px solid #ffffff;
 	box-sizing: border-box;
@@ -162,9 +164,9 @@
 	height: 100%;
 }
 .gallery__slider .slick-track {
-	width: 100%;
 	display: flex;
 	align-items: flex-start;
+	justify-content: center;
 }
 /* ============= invisibleSlider ============== */
 .modalSliderBox {

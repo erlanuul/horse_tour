@@ -1,4 +1,5 @@
 @import url('../../index.css');
+@import url(./adaptive.css);
 
 #contactPage body {
 	height: 100vh;
@@ -71,6 +72,7 @@
 	line-height: 75px;
 	color: #ffffff;
 	margin-bottom: 11px;
+	width: min-content;
 }
 .socialMediaContainer .infoBar__title {
 	margin-left: 20px;
@@ -127,12 +129,15 @@
 
 #contactPage .body-findTourBox__formBox {
 	width: 100%;
+	flex-direction: column;
 }
 .footer__getInTouchBox {
 	width: 100%;
 	flex-direction: column;
 	background: transparent;
 	padding: 0px;
+	margin-bottom: 20px;
+	height: min-content;
 }
 .footer-getInTouchBox__title {
 	font-family: Montserrat;
@@ -149,50 +154,7 @@
 	margin: 10px;
 }
 #contactPage .findTourBox__formItem.Description {
-	width: 460px;
+	width: 97.5%;
 	align-items: flex-start;
 	padding-top: 10px;
-}
-#contactPage .footer__getInTouchBox {
-	margin-bottom: 20px;
-	height: min-content;
-}
-/*================== FOOTER ===================*/
-.footer {
-	width: 100%;
-}
-.footer__subBar {
-	background: #7ab0ff;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 15px;
-	text-align: center;
-	height: 50px;
-	width: 100%;
-
-	color: #ffffff;
-}
-/* Фонты */
-@font-face {
-	font-family: 'Montserrat';
-	src: url('../../src/font-family/montserrat/static/Montserrat-Medium.ttf')
-		format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'Montserrat light';
-	src: url('../../src/font-family/montserrat/static/Montserrat-Light.ttf')
-		format('truetype');
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'Sedgwick Ave';
-	src: url('../../src/font-family/Sedgwick_Ave/SedgwickAve-Regular.ttf')
-		format('truetype');
-	font-style: normal;
-	font-weight: normal;
 }

@@ -1,4 +1,5 @@
 @import url('../../index.css');
+@import url(./adaptive.css);
 
 .linked {
 	font-weight: bold;
@@ -143,6 +144,10 @@
 	display: flex;
 	justify-content: flex-start;
 	margin-bottom: 50px;
+}
+.ourTeamBox__item img {
+	width: 300px;
+	height: 300px;
 }
 .ourTeamBox__textBox {
 	width: 560px;

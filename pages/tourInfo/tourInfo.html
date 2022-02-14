@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./tourInfo.css" />
+		<link rel="stylesheet" href="tourInfo.css" />
+		<link rel="stylesheet" href="../../adaptive.css" />
 		<title>Детали тура</title>
 	</head>
 	<body class="dja-center">
@@ -29,6 +30,28 @@
 							<a href="../about/about.html">About us</a>
 						</div>
 					</div>
+					<!-- ================================== -->
+					<div class="header-showListButton">show</div>
+					<!-- ================================== -->
+					<div class="header__navList">
+						<div class="header-navList__logoBox">
+							<a href="../../index.html"
+								><img src="../../src/logo.png" alt="logo"
+							/></a>
+							<div class="header-hideListButton">hide</div>
+						</div>
+						<a class="header-navList__item" href="../tours/tours.html">Tours</a>
+						<a class="header-navList__item" href="../contacts/contacts.html"
+							>Contacts</a
+						>
+						<a class="header-navList__item" href="../gallery/gallery.html"
+							>Gallery</a
+						>
+						<a class="header-navList__item" href="../about/about.html"
+							>About us</a
+						>
+					</div>
+					<!-- ================================== -->
 				</div>
 			</div>
 
@@ -433,7 +456,6 @@
 						<a href="#" class="mainButton">BOOK A TOUR</a>
 					</div>
 				</div>
-				<!------------------------ body__descriptionBox -------------------------->
 			</div>
 
 			<!------------------------------- footer ---------------------------------->
@@ -443,16 +465,18 @@
 					<div class="footer__getInTouchBox dja-center">
 						<h1 class="footer-getInTouchBox__title">Get in touch</h1>
 						<div class="body-findTourBox__formBox">
-							<input
-								class="findTourBox__formItem"
-								type="text"
-								placeholder="Name"
-							/>
-							<input
-								class="findTourBox__formItem"
-								type="text"
-								placeholder="Surname"
-							/>
+							<div class="footer__getInTouchContainer">
+								<input
+									class="findTourBox__formItem"
+									type="text"
+									placeholder="Name"
+								/>
+								<input
+									class="findTourBox__formItem"
+									type="text"
+									placeholder="Surname"
+								/>
+							</div>
 							<textarea
 								name="description"
 								id="description"

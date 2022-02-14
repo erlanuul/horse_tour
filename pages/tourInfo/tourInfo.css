@@ -132,6 +132,8 @@
 }
 /* ================ tourSliderBox ================ */
 .body__sliderBox {
+	grid-column-start: 1;
+	grid-row-start: 2;
 	width: 560px;
 	height: min-content;
 	background: #ffffff;
@@ -144,6 +146,7 @@
 	margin-top: -75px;
 }
 .sliderBox__title {
+	width: 100%;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
@@ -311,7 +314,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: max-content;
-	justify-content: center;
+	position: relative;
 }
 .body__grouptourBox {
 	grid-column-start: 2;

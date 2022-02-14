@@ -6,6 +6,57 @@
 	.footer-contactBox__socialMediaBox p {
 		width: 300px;
 	}
+	/* ========== contacts =========== */
+	#contactPage .body-mainBox__infoBar {
+		padding-left: 10px;
+	}
+	#contactPage .infoBar__title {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	#contactPage .body-mainBox__item {
+		height: 650px;
+	}
+	#contactPage .infoBar__links {
+		margin-bottom: 40px;
+	}
+	#contactPage .infoBar__links a {
+		font-size: 12px;
+	}
+	#contactPage .infoBar__links p {
+		font-size: 12px;
+	}
+	/* ======== galleryBox ========  */
+	#galleryPage .body__galleryBox {
+		width: 80%;
+	}
+	#galleryPage .galleryBox__itemTextBox {
+		width: 80%;
+	}
+	/* ====== about us page ======== */
+
+	.body__whoWeAreBox {
+		width: 80%;
+		justify-content: flex-start;
+		height: fit-content;
+	}
+	.body__ourTeamBox {
+		display: flex;
+		align-items: center;
+		width: 80%;
+	}
+	.whoWeAre__text {
+		font-size: 14px;
+	}
+	.ourTeamBox__text {
+		font-size: 14px;
+	}
+	.whoWeAre__textImgBox {
+		height: fit-content;
+	}
+	.ourTeamBox__item {
+		height: min-content;
+	}
 }
 @media (max-width: 990px) {
 	.header {
@@ -13,13 +64,13 @@
 		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	}
 	.header__navBar {
-		width: 990px;
+		width: 100%;
 	}
 	.header-navBar__logoBox {
 		width: 30%;
 	}
 	.header-navBar__logoBox img {
-		width: 100px;
+		width: 120px;
 	}
 	.header-navBar__buttonsBox {
 		width: 70%;
@@ -59,9 +110,9 @@
 	}
 
 	.mainButton {
-		width: 150px;
-		height: 30px;
+		width: 300px;
 		font-size: 12px;
+		height: 40px;
 	}
 
 	/* =====================  choose tour ==================== */
@@ -144,7 +195,6 @@
 	}
 	/* ===================== choose tour SLIDER ======================== */
 	.body-chooseTourBoxSlide .slick-list {
-		overflow: hidden;
 		border-radius: 20px;
 	}
 	.body-chooseTourBoxSlide .slick-track {
@@ -153,22 +203,17 @@
 		justify-content: center;
 	}
 	.body__chooseTourBox {
-		width: 600px;
+		width: 690px;
 		height: 520px;
 	}
-	.body-chooseTourBoxSlide {
-		width: 100%;
-	}
 	.body-chooseTourBox__item {
-		width: 220px !important;
-		margin: 10px 10px 10px 10px;
 		height: 412px;
 		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 		border-radius: 10px;
 	}
 	.body-chooseTourBoxSlide .slick-arrow {
-		width: 7px;
-		height: 11px;
+		width: 10px;
+		height: 20px;
 		top: -27px;
 	}
 	.body-chooseTourBoxSlide .slick-arrow.slick-prev {
@@ -181,7 +226,11 @@
 	/* ================ find tour ================ */
 
 	.body__findTourBoxImg {
-		height: 300px;
+		height: fit-content;
+	}
+	.body__findTourBox {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.body__findTourBox h1 {
@@ -192,17 +241,20 @@
 		margin-bottom: 30px;
 	}
 	.body-findTourBox__formBox {
-		width: 440px;
+		width: 80%;
 	}
 	.findTourBox__formItem {
 		font-size: 12px;
-		width: 200px;
-		height: 30px;
+		width: 100%;
 	}
 
 	/* =============== красивые места ================ */
+	.body-beautifulPlacesBoxSlide .slick-list {
+		width: 620px;
+		height: min-content;
+	}
 	.body__beautifulPlacesBox {
-		width: 600px;
+		width: 90%;
 		margin-bottom: 20px;
 	}
 	.beautifulPlacesBox__text {
@@ -210,15 +262,6 @@
 		margin-bottom: 5px;
 		margin-left: 20px;
 		margin-top: 30px;
-	}
-	.body-beautifulPlacesBox__item {
-		width: 180px;
-		height: 160px;
-		margin-bottom: 20px;
-	}
-	.body-beautifulPlacesBox__item img {
-		width: 180px;
-		height: 160px;
 	}
 	.body-beautifulPlacesBoxSlide .slick-arrow {
 		width: 7px;
@@ -251,17 +294,13 @@
 	/*================== FOOTER ===================*/
 
 	.footer__getInTouchBoxImg {
-		width: 100%;
-		height: 350px;
-	}
-	.footer__getInTouchBox {
-		width: 100%;
+		height: 450px;
 	}
 	.footer-getInTouchBox__title {
 		font-size: 30px;
 	}
 	.findTourBox__formItem.Description {
-		width: 420px;
+		width: 97.5%;
 		height: 80px;
 	}
 	.footer-getInTouchBox__contacts div {
@@ -315,11 +354,11 @@
 		background-size: cover;
 	}
 	.footer-contactBox__contacts p {
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 		font-size: 15px;
 	}
 	.footer-contactBox__contacts a {
-		margin-bottom: 29px;
+		margin-bottom: 10px;
 		font-size: 12px;
 	}
 	.footer-contactBox__contacts img {
@@ -330,21 +369,80 @@
 		font-size: 12px;
 		height: 40px;
 	}
+	/* ============ contacts =========== */
+	#contactPage .socialMediaContainer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	#contactPage .body-mainBox__item {
+		height: 550px;
+	}
+	#contactPage .body-mainBox__infoBar {
+		margin-bottom: 30px;
+	}
+	#contactPage .contactBox-socialMediaBox__socialMedia {
+		margin-bottom: 0px;
+	}
+	#contactPage .findTourBox__formItem {
+		margin: 5px;
+		width: 100%;
+	}
+
+	/* ======== galleryBox ========  */
+	#galleryPage .body__galleryBox {
+		width: 80%;
+	}
+	/* =========== about us page =========== */
+	.whoWeAre__textImgBox img {
+		display: none;
+	}
+	.ourTeamBox__item {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.ourTeamBox__textBox {
+		margin-left: 0px;
+		width: 100%;
+		align-items: center;
+	}
+	/* ========= tourinfo ======== */
+	.body__gridContainer {
+		width: 90%;
+		grid-template-columns: 100%;
+	}
+	.body__grouptourBox {
+		grid-column-start: 1;
+		grid-row-start: 4;
+	}
+	.body__sliderBox {
+		margin-top: 10px;
+	}
+	.body__grouptourBox {
+		margin-left: 0px;
+		margin-top: 10px;
+		grid-column-start: 1;
+		grid-row-start: 4;
+	}
+	.footer__getInTouchContainer {
+		width: 100%;
+	}
+	.modalPayBox__container {
+		width: 90%;
+	}
+	.modalPayBox__imgBox {
+		width: 40%;
+	}
+	.modalPayBox__contentBox {
+		width: 60%;
+	}
 }
 
 /* ================================ */
 
+/* ================================ */
 @media (max-width: 700px) {
-	.header {
-		height: 40px;
-	}
-	.header__navBar {
-		width: 640px;
-	}
-	.header-navBar__logoBox img {
-		width: 80px;
-		height: fit-content;
-	}
 	.header-navBar__buttonsBox {
 		width: 70%;
 		justify-content: center;
@@ -378,32 +476,16 @@
 	}
 
 	.mainButton {
-		width: 100px;
-		height: 30px;
-		font-size: 10px;
+		height: 40px;
+		font-size: 14px;
 	}
 
 	/* =====================  choose tour ==================== */
-
-	.chooseTourBox__headBar {
-		margin-bottom: 0px;
-	}
-
-	/* ===================== choose tour SLIDER ======================== */
-
 	.body__chooseTourBox {
-		width: 450px;
+		width: 90%;
 		height: 520px;
 	}
-	.body-chooseTourBoxSlide .slick-arrow {
-		top: -20px;
-	}
-
 	/* ================ find tour ================ */
-
-	.body__findTourBoxImg {
-		height: 250px;
-	}
 
 	.body__findTourBox h1 {
 		font-size: 20px;
@@ -414,33 +496,24 @@
 		margin-bottom: 10px;
 	}
 	.body-findTourBox__formBox {
-		width: 400px;
+		width: 80%;
+		flex-direction: column;
 	}
 	.findTourBox__formItem {
 		font-size: 12px;
-		width: 180px;
-		height: 30px;
+		width: 100%;
 	}
 
 	/* =============== красивые места ================ */
-	.body__beautifulPlacesBox {
-		width: 450px;
-		margin-bottom: 20px;
+	.body-beautifulPlacesBoxSlide .slick-list {
+		width: 300px;
+		height: min-content;
 	}
 	.beautifulPlacesBox__text {
 		font-size: 20px;
 		margin-bottom: 5px;
 		margin-left: 20px;
 		margin-top: 30px;
-	}
-	.body-beautifulPlacesBox__item {
-		width: 180px;
-		height: 160px;
-		margin-bottom: 20px;
-	}
-	.body-beautifulPlacesBox__item img {
-		width: 180px;
-		height: 160px;
 	}
 	.body-beautifulPlacesBoxSlide .slick-arrow {
 		width: 7px;
@@ -471,6 +544,7 @@
 	}
 	.footer-contactBox__container {
 		margin-right: 0px;
+		width: 90%;
 	}
 	.contactBox-socialMediaBox__logoBox {
 		margin-bottom: 20px;
@@ -480,7 +554,7 @@
 		width: 100px;
 	}
 	.footer-contactBox__socialMediaBox p {
-		width: 60%;
+		width: 90%;
 		font-size: 12px;
 		line-height: 15px;
 	}
@@ -514,5 +588,303 @@
 	.footer__subBar {
 		font-size: 12px;
 		height: 40px;
+	}
+
+	/* ============  tours  ============= */
+	#toursPage .chooseTourBox__headBar {
+		justify-content: center;
+	}
+	#toursPage .body__chooseTourBox {
+		width: 80%;
+	}
+	#toursPage .body-mainBox__item {
+		height: 400px;
+	}
+	.body-mainBox__infoBar {
+		margin-top: 0px;
+	}
+	.body-mainBox__infoBar div {
+		margin-bottom: 20px;
+	}
+	.body-mainBox__infoBar p {
+		font-size: 12px;
+	}
+	.body-mainBox__infoBar a {
+		font-size: 12px;
+	}
+	.body-mainBox__infoBar h1 {
+		font-size: 50px;
+	}
+	/* ======== contacts ======== */
+	#contactPage .findTourBox__formItem.Description {
+		width: 90%;
+	}
+	#contactPage .infoBar__title {
+		width: 100%;
+		font-size: 25px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	#contactPage .socialMediaContainer {
+		margin-bottom: 0px;
+	}
+	#contactPage .body-mainBox__infoBar {
+		margin-bottom: 0px;
+	}
+	#contactPage .body-mainBox__item {
+		height: 400px;
+	}
+	#contactPage .infoBar__text {
+		margin-bottom: 20px;
+		font-size: 10px;
+	}
+	#contactPage .infoBar__contacts a {
+		font-size: 10px;
+	}
+	#contactPage .infoBar__contacts img {
+		width: 20px;
+		height: 20px;
+	}
+	#contactPage .infoBar__links a {
+		font-size: 10px;
+	}
+	#contactPage .infoBar__links p {
+		font-size: 10px;
+	}
+	/* ========= galleryPage ========= */
+	#galleryPage .slider__item {
+		width: 70px;
+		height: 70px;
+	}
+	.gallery__slider .slick-arrow.slick-prev {
+		left: -30px;
+	}
+	.gallery__slider .slick-arrow.slick-next {
+		right: -30px;
+	}
+	#galleryPage .body-mainBox__item {
+		height: 400px;
+	}
+	#galleryPage .galleryBox__itemBox {
+		height: 400px;
+	}
+	#galleryPage .galleryItem__title {
+		font-size: 30px;
+	}
+	#galleryPage .galleryItem__text {
+		font-size: 12px;
+	}
+	.modalSliderBox__invisibleSlider {
+		width: 80%;
+		height: 300px;
+	}
+	#galleryPage .body__galleryBox {
+		padding-bottom: 30px;
+	}
+	.gallery__slider .slick-arrow {
+		width: 15px;
+		height: 15px;
+	}
+
+	/* ============= about us ============= */
+	#aboutPage .body-mainBox__item {
+		height: 400px;
+	}
+	.body__whoWeAreBox {
+		width: 80%;
+	}
+	/* ====== tourinfo ====== */
+	#tourInfoPage .body-mainBox__item {
+		height: 400px;
+	}
+	#tourInfoPage .body-mainBox__infoBar h1 {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	#tourInfoPage .body-mainBox__infoBar div {
+		font-size: 12px;
+	}
+	.body__descriptionBox {
+		width: 80%;
+	}
+	.body-description__textBox h1 {
+		font-size: 25px;
+	}
+	.body-description__textBox p {
+		font-size: 12px;
+	}
+	#tourInfoPage .body__sliderBox {
+		width: 80%;
+	}
+	.body__gridContainer {
+		width: 100%;
+		justify-items: center;
+	}
+	.body__ltineraryBox {
+		width: 80%;
+	}
+	.findTourBox__formItem.Description {
+		width: 97.5%;
+	}
+	.header-showListButton {
+		display: none;
+	}
+	.header__navList {
+		display: none;
+	}
+}
+
+/* ============== мобилка ============== */
+
+@media (max-width: 500px) {
+	.body-mainSlider__item {
+		height: 649px;
+	}
+	.body-mainSlider__infoBar p {
+		font-size: 14px;
+	}
+	.body-mainSlider__infoBar h1 {
+		font-size: 50px;
+		line-height: 62px;
+	}
+	.body__mainSlider .slick-arrow {
+		display: none;
+		visibility: hidden;
+	}
+	.body__chooseTourBox {
+		height: 600px;
+	}
+	.chooseTourBox__headBar {
+		justify-content: center;
+	}
+	.chooseTourBox-headBar__mainLink {
+		display: none;
+	}
+	.body-chooseTourBoxSlide .slick-arrow.slick-prev {
+		margin-left: 10px;
+		left: 0;
+	}
+	.body-chooseTourBoxSlide .slick-arrow.slick-next {
+		margin-right: 10px;
+	}
+	.body-findTourBox__formBox {
+		flex-direction: column;
+		width: 90%;
+	}
+	.findTourBox__formItem {
+		width: 100%;
+		margin-bottom: 5px;
+		height: 40px;
+	}
+	.body__tienShanMapBox {
+		width: 90%;
+		height: 450px;
+	}
+	.body-beautifulPlacesBoxSlide .slick-arrow {
+		display: none;
+		visibility: hidden;
+	}
+	.beautifulPlacesBox__text {
+		justify-content: center;
+	}
+	.footer__getInTouchContainer {
+		flex-direction: column;
+		width: 100%;
+	}
+	.footer-getInTouchBox__contacts {
+		display: none;
+		visibility: hidden;
+	}
+	.mainButton {
+		width: 90%;
+	}
+	.body-tienShanMapBox__imgBox {
+		height: 250px;
+		width: 300px;
+	}
+	.body-beautifulPlacesBoxSlide {
+		height: min-content;
+	}
+	.body-beautifulPlacesBoxSlide .slick-slide {
+		/* height: 305px; */
+	}
+	.body-tienShanMapBox__headBar {
+		justify-content: center;
+	}
+	.footer__contactBox {
+		flex-direction: column;
+		height: min-content;
+		align-items: center;
+	}
+	.footer-contactBox__socialMediaBox {
+		width: 100%;
+		justify-content: center;
+	}
+	.footer-contactBox__contacts {
+		width: 90%;
+		justify-content: center;
+	}
+	#toursPage .body-mainBox__item {
+		height: 480px;
+	}
+	.chooseTourBox__headBar {
+		display: none;
+		visibility: hidden;
+	}
+	#toursPage .body__chooseTourBox {
+		margin-top: 50px;
+	}
+	.body__mainContainer {
+		flex-direction: column;
+	}
+	#contactPage .body-mainBox__item {
+		height: min-content;
+	}
+	#contactPage .infoBar__links {
+		margin-top: 160px;
+	}
+	#contactPage .body-findTourBox__formBox {
+		flex-direction: column !important;
+		justify-content: center;
+	}
+	.findTourBox__formItem.Description {
+		width: 100%;
+	}
+	#contactPage .findTourBox__formItem.Description {
+		width: 100%;
+	}
+	#galleryPage .body-mainBox__item {
+		height: 480px;
+	}
+	.gallery__slider .slick-arrow.slick-prev {
+		left: -20px;
+	}
+	.gallery__slider .slick-arrow.slick-next {
+		right: -20px;
+	}
+	#aboutPage .body-mainBox__item {
+		height: 480px;
+	}
+	.ourTeamBox__item img {
+		margin-bottom: 20px;
+	}
+	#tourInfoPage .body-mainBox__infoBar div {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	#contactPage .body-mainBox__infoBar {
+		width: 80%;
+	}
+	.header-navBar__buttonsBox {
+		display: none;
+	}
+	.header__navBar {
+		justify-content: space-between;
+	}
+	.header-showListButton {
+		display: flex;
+	}
+	.header-navBar__logoBox {
+		margin-left: 20px;
 	}
 }
